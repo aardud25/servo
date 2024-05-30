@@ -257,12 +257,6 @@ $EndComp
 Wire Wire Line
 	7350 4950 7450 4950
 Wire Wire Line
-	4050 2150 5200 2150
-Wire Wire Line
-	5200 2150 5200 2200
-Wire Wire Line
-	5600 3500 6100 3500
-Wire Wire Line
 	5700 3700 5700 3800
 $Comp
 L power:GND #PWR?
@@ -323,4 +317,10 @@ F 3 "~" H 9800 2110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7350 4550
+Wire Wire Line
+	5400 3500 6100 3500
+Wire Wire Line
+	5400 2150 5400 3500
+Wire Wire Line
+	4050 2150 5400 2150
 $EndSCHEMATC
